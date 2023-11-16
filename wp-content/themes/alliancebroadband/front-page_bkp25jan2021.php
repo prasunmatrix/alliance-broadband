@@ -1,0 +1,686 @@
+<?php
+/**
+ * The front page template file
+ *
+ * If the user has selected a static page for their homepage, this is what will
+ * appear.
+ * Learn more: https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Seventeen
+ * @since Twenty Seventeen 1.0
+ * @version 1.0
+ */
+
+get_header(); ?>
+<div class="wrapper">
+<!--banner-->
+	<div class="dsn-slider demo1" data-dsn-header="project">
+        <div class="dsn-root-slider has-top-bottom" id="dsn-hero-parallax-img">
+            <div class="slide-inner">
+                <div class="swiper-wrapper">
+                    <div class="slide-item swiper-slide">
+    <div class="slide-content">
+        <div class="slide-content-inner">
+            <div class="project-metas"><div class="project-meta-box project-work cat"><span>Brand</span></div></div>
+
+            <div class="title-text-header">
+                <h1 class="title-text-header-inner">
+                    <a href="#" class="effect-ajax"
+                       data-dsn-ajax="slider">
+                        Time Tag Watch                    </a>
+                </h1>
+            </div>
+
+
+            <p>Sometimes, we need to check the time, wondering when our work or meeting will finish, without getting caught by others.</p>
+
+            <div class="link-custom">
+                <a href="#" class="image-zoom effect-ajax" data-dsn="parallax"
+                   data-dsn-ajax="slider">
+                    <span>View Case</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="image-container">
+
+
+        <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/1-2.jpg" data-overlay="1" ></div>
+        
+
+    </div>
+</div>
+<div class="slide-item swiper-slide">
+    <div class="slide-content">
+        <div class="slide-content-inner">
+            <div class="project-metas"><div class="project-meta-box project-work cat"><span>Brand</span></div></div>
+
+            <div class="title-text-header">
+                <h1 class="title-text-header-inner">
+                    <a href="#" class="effect-ajax"
+                       data-dsn-ajax="slider">
+                        Under Armour                    </a>
+                </h1>
+            </div>
+
+
+            <p>Cal was first. The first public university in the great state of California. They are the pioneers. They are the trailblazers who started it all.</p>
+
+            <div class="link-custom">
+                <a href="#" class="image-zoom effect-ajax" data-dsn="parallax"
+                   data-dsn-ajax="slider">
+                    <span>View Case</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="image-container">
+
+
+        <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/1-3.jpg" data-overlay="2" ></div>
+        
+
+    </div>
+</div>
+<div class="slide-item swiper-slide">
+    <div class="slide-content">
+        <div class="slide-content-inner">
+            <div class="project-metas"><div class="project-meta-box project-work cat"><span>Photography</span></div></div>
+
+            <div class="title-text-header">
+                <h1 class="title-text-header-inner">
+                    <a href="#" class="effect-ajax"
+                       data-dsn-ajax="slider">
+                        Re Styling                    </a>
+                </h1>
+            </div>
+
+
+            <p>Once the brand strategy was sharp and real for everyone inside of the company, all the brand behavior started to roll out as stationary material. </p>
+
+            <div class="link-custom">
+                <a href="#" class="image-zoom effect-ajax" data-dsn="parallax"
+                   data-dsn-ajax="slider">
+                    <span>View Case</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="image-container">
+
+
+        <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/1-6.jpg" data-overlay="3" ></div>
+        
+
+    </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="dsn-hero-parallax-titles" class="dsn-slider-content project-title"></div>
+                    <div class="nav-slider">
+                <div class="swiper-wrapper" role="navigation">
+
+
+                                            <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/13-150x150.jpg"
+                                     data-overlay="1">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>01</p>
+                            </div>
+                        </div>
+
+                                                <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/10-1-150x150.jpg"
+                                     data-overlay="2">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>02</p>
+                            </div>
+                        </div>
+
+                                                <div class="swiper-slide">
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/3-6-150x150.jpg"
+                                     data-overlay="3">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>03</p>
+                            </div>
+                        </div>
+
+                        
+
+                </div>
+            </div>
+                <section class="footer-slid" id="descover-holder">
+            <div class="main-social">
+                <div class="social-icon">
+                    <div class="social-btn">
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.3 23.2">
+                                <path
+                                        d="M19.4 15.5c-1.2 0-2.4.6-3.1 1.7L7.8 12v-.7l8.5-5.1c.7 1 1.9 1.6 3.1 1.6 2.1 0 3.9-1.7 3.9-3.9S21.6 0 19.4 0s-3.9 1.7-3.9 3.9v.4L7 9.3c-1.3-1.7-3.7-2-5.4-.8s-2.1 3.7-.8 5.4c.7 1 1.9 1.6 3.1 1.6s2.4-.6 3.1-1.6l8.5 5v.4c0 2.1 1.7 3.9 3.9 3.9s3.9-1.7 3.9-3.9c0-2.1-1.7-3.8-3.9-3.8zm0-13.6c1.1 0 1.9.9 1.9 1.9s-.9 1.9-1.9 1.9-1.9-.7-1.9-1.8.8-2 1.9-2zM3.9 13.6c-1.1 0-1.9-.9-1.9-1.9s.9-1.9 1.9-1.9 1.9.9 1.9 1.9-.8 1.9-1.9 1.9zm15.5 7.8c-1.1 0-1.9-.9-1.9-1.9s.9-1.9 1.9-1.9 1.9.9 1.9 1.9-.8 1.8-1.9 1.9z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <ul class="social-network">
+                    <?php if(!empty(get_theme_mod('follow_us_header'))) { ?>
+               	<li class="image-zoom social-icons-facebook " data-dsn="parallax"><a href="<?php echo get_theme_mod('follow_us_header'); ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+           	   <?php } if(!empty(get_theme_mod('twitter_links'))) { ?>
+               	<li class="social-icons-twitter" data-dsn="parallax"><a href="<?php echo get_theme_mod('twitter_links'); ?>" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+               <?php } if(!empty(get_theme_mod('linked_in_link'))) { ?>
+               	<li class="social-icons-linkedin" data-dsn="parallax"><a href="<?php echo get_theme_mod('linked_in_link'); ?>" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+           	   <?php } if(!empty(get_theme_mod('instagram_in_link'))) { ?>
+               	<li class="social-icons-linkedin" data-dsn="parallax"><a href="<?php echo get_theme_mod('instagram_in_link'); ?>" target="_blank" title="Instgram"><i class="fab fa-instagram"></i></a></li>
+           	   <?php } ?>               </ul>
+            </div>
+
+            <div class="control-num">
+                <span class="sup active">01</span>
+            </div>
+            <div class="control-nav">
+                <div class="prev-container" data-dsn="parallax">
+                    <svg viewBox="0 0 40 40">
+                        <path class="path circle" d="M20,2A18,18,0,1,1,2,20,18,18,0,0,1,20,2"></path>
+                        <polyline class="path" points="14.6 17.45 20 22.85 25.4 17.45"></polyline>
+                    </svg>
+                </div>
+
+                <div class="next-container" data-dsn="parallax">
+                    <svg viewBox="0 0 40 40">
+                        <path class="path circle" d="M20,2A18,18,0,1,1,2,20,18,18,0,0,1,20,2"></path>
+                        <polyline class="path" points="14.6 17.45 20 22.85 25.4 17.45"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+<div class="suitable_plan link-custom">
+	<ul>
+    	<li><a href="#" class="image-zoom effect-ajax home_btn_popup" data-dsn-ajax="slider" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <span>Home</span>
+                <div class="icon-circle" ></div></a></li>
+        <li><a href="#" class="image-zoom effect-ajax" data-dsn-ajax="slider" >
+                    <span>Office</span>
+                <div class="icon-circle" ></div></a></li>
+    </ul>
+</div>
+
+    </div>
+    
+<!--modal form-->
+
+<div id="popupform_1" class="modal fade bd-example-modal-lg"  tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Home</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Nember of Devices</label>
+                      <input type="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">City</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <div class="my-3 radio_form">
+                       <input type="radio" name="rad1" onclick="formChoice(0)"> Use Current Location<br>
+                        <input type="text" name="businessSite" class="field1 form-control mb-4" placeholder="address">
+                        <input type="text" name="businessSite" class="field1 form-control mb-4" placeholder="Pincode">
+                        <input type="text" name="businessSite" class="field1 form-control mb-4" placeholder="Nearby Franchise Number"><br>
+                        <input type="radio" name="rad1" onclick="formChoice(1)"> Enter Address<br>
+                        <input type="text" name="businessSite" class="field2 form-control mb-4" placeholder="address">
+                        <input type="text" name="businessSite" class="field2 form-control mb-4" placeholder="Pincode">
+                        <input type="text" name="businessSite" class="field2 form-control mb-4" placeholder="Nearby Franchise Number">
+                        </form>
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="">Phone No.</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group" style="margin-bottom:30px;">
+                      <label for="">Name</label>
+                      <input type="text" class="form-control">
+                    </div>  
+                    <center><button type="submit" class="btn popup_btn">Know Your Plan</button></center>             
+                  </form>
+                </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<!--banner end-->
+
+<!--about-->
+<?php if(get_field("hello_we_are_content")): ?>
+<section
+        class="intro-about  " >
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="intro-content-text">
+                    
+	
+
+                        <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%"
+                            data-dsn-opacity="1.2" data-dsn-responsive="tablet">
+                          <?php the_field("hello_we_are"); ?>                       </h2>
+                    <div class="span-small" data-dsn-animate=up><p><?php the_field("hello_we_are_content"); ?></p></div>
+                    
+                    <!--<h6 data-dsn-animate="up">SALVADOR DALI</h6><small data-dsn-animate="up">Digital Artisit</small>-->
+                    <?php if(get_field("our_years")): ?>
+                    <div class="exper">
+
+                                                    <div class="numb-ex">
+                                <span class="word" data-dsn-animate="up"><?php the_field("our_years"); ?></span>                            </div>
+                                                <h4 data-dsn-animate="up"><?php the_field("our_years_text"); ?></h4>                    </div>
+<?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-mask">
+        <div class="img-box h-100">
+            <div class="img-cent h-100" >
+                <div class="img-container h-100">
+                    <img alt="img"  src="<?php the_field("hello_we_are_img"); ?>" />               </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php endif; ?>
+<!--about end-->
+
+
+
+<!--section 1-->
+
+<?php if(get_field("plan_heading")): ?>
+<section
+            class="our-services-2  " >
+        <div class="container">
+            <div class="one-title"><div class="title-sub-container"><p class="title-sub" ><?php the_field("plan_heading"); ?></p></div><h2 class="title-main" ><?php the_field("plan_subheading"); ?></h2></div>
+
+            <div class="row">
+            
+            <?php 
+
+	query_posts(array( 
+
+			'post_type' => 'allplan',
+			'showposts' => 4,
+			'order' => 'ASC', 
+
+			) ); 
+
+			$i=0; 
+?>
+<?php while (have_posts()) : the_post(); ?>
+                                        <div class="col-md-3">
+                            <div class="services-item">
+                                <div class="corner corner-top"></div>
+                                <div class="corner corner-bottom"></div>
+                                <?php $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()), 'thumbnail' ); ?>
+	
+                                <div class="icon" ><img src="<?php echo $url ?>" alt="" class="attachment-thumbnail size-thumbnail"></div>
+                                <div class="services-header"><h3 data-dsn-animate=""><?php the_title(); ?></h3></div>
+                                <div data-dsn-animate=""><?php the_content(); ?></div>
+                                <div class="link-custom dsn-active" data-dsn-animate="up" >
+                                <a class="image-zoom effect-ajax" href="<?php the_permalink(); ?>" >
+                            <span>More</span>
+                        <div class="icon-circle" ></div></a>
+                        </div>
+                        
+                            </div>
+                        </div>
+                        
+                              <?php $i++; endwhile;?>
+            <?php  wp_reset_query();?>              
+                                            
+                                </div>
+        </div>
+    </section>
+    
+<?php endif; ?>    
+<!--section 1 end-->
+
+
+<!--section 2-->
+<?php if(get_field("residential_heading")): ?>
+<section class="">
+<div class="box-seat box-seat-full  " >
+        <div class="container-fluid">
+
+            <div class="inner-img" data-dsn-grid="move-up"
+                 data-overlay="0">
+
+                <img width="1800" height="1080"   alt="" src="<?php the_field("residential_heading_img"); ?>" >            </div>
+
+            <div class="pro-text" >
+                                <h3 data-dsn-animate=up><?php the_field("residential_heading"); ?></h3>
+                                <p class="span-small" data-dsn-animate="up"><?php the_field("residential_heading_text"); ?></p>                    <div class="link-custom" data-dsn-animate="up">
+                        <a class="image-zoom effect-ajax" href="<?php the_field("residential_link"); ?>"
+                           data-dsn="parallax">
+                            <span><?php the_field("residential_linktext"); ?></span>
+                        </a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+		</section>
+<?php endif; ?>         
+<!--section 2 end-->
+
+
+<!--section 3-->
+<?php if(get_field("refer_carousal_heading")): ?>
+<section
+            class="our-work dsn-arrow work-under-header  "             data-dsn-col="3">
+        <div class="container">
+            <div class="one-title"><div class="title-sub-container"><p class="title-sub" data-dsn-animate=up><?php the_field("refer_carousal_heading"); ?></p></div><h2 class="title-main" data-dsn-animate=up><?php the_field("refer_carousal_subheading"); ?></h2></div>        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-9 offset-lg-3">
+                    <div class="work-container">
+                        <div class="slick-slider">
+                        <?php 
+
+	query_posts(array( 
+
+			'post_type' => 'refer',
+			
+			'showposts' => -1,
+			'order' => 'ASC', 
+
+			) ); 
+
+			$j=0; 
+?>
+<?php while (have_posts()) : the_post(); ?>
+
+                                                                <div class="work-item slick-slide">
+
+                                   <?php $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()), 'thumbnail' 
+
+); ?>
+	    
+                                        <img width="768" height="514"   alt="" src="<?php echo $url ?>" />                                       
+                                        <div class="item-border"></div>
+                                        <div class="item-info">
+                                            <a class="effect-ajax" href="<?php the_permalink(); ?>"
+                                               data-dsn-grid="move-up"
+                                               rel="bookmark" title="Re Styling">
+                                                <h5 class="cat">	<?php the_title(); ?></h5>
+                                                <h4><?php the_content(); ?></h4>
+                                                <span><span>View </span></span>                                            </a>
+
+
+                                        </div>
+
+                                    </div>
+                                                                    
+                                                                    
+                            <?php $j++; endwhile;?>
+            <?php  wp_reset_query();?>    
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php endif; ?>  		
+<!--section 3 end-->
+
+<!--section 4-->
+<?php if(get_field("whyalliance_heading")): ?>
+<div class="box-gallery-vertical section-padding   "
+    data-dsn=color >
+    <div class="mask-bg"></div>
+    <div class="container">
+        <div class="row align-items-center h-100">
+            <div class="col-lg-6 ">
+                                    <div class="box-im" data-dsn-grid="move-up"
+                         data-overlay="0"
+                                                >
+                        <div class="swiper-container h-100 container-swip-vir">
+                            <div class="swiper-wrapper">
+                            
+                                <div class="swiper-slide"><img width="880" height="1127"   alt="" src="<?php the_field("whyalliance_img"); ?>" class="has-top-bottom image-bg " /></div>
+                                
+                                
+                                
+                                
+                                                            </div>
+                        </div>
+
+                    </div>
+                            </div>
+
+            <div class="col-lg-6">
+                <div class="box-info">
+
+                                            <div class="title-cover" data-dsn-grid="move-section" data-dsn-opacity="0.1"
+                             data-dsn-duration="170%" data-dsn-move="0%">
+                            Why                        </div>
+                    
+                    <div class="vertical-title">
+                    <h2 data-dsn-animate=up>
+					<?php the_field("whyalliance_heading"); ?></h2>
+                    </div>
+                    <h6 data-dsn-animate=up><?php the_field("whyalliance_subheading"); ?></h6>
+                    <p data-dsn-animate=up><?php the_field("whyalliance_content"); ?></p>                        
+                    <?php if(get_field("whyalliance_btntext")): ?>
+                    <div class="link-custom" data-dsn-animate="up">
+                            <a class="image-zoom effect-ajax" href="<?php the_field("whyalliance_btnlink"); ?>"
+                               data-dsn="parallax">
+                                <span><?php the_field("whyalliance_btntext"); ?></span>
+                            </a>
+                        </div>
+                        <?php endif; ?>
+                                    </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<?php endif; ?>
+<!--section 4 end-->
+
+<!--section 5-->
+<?php if(get_field("testimonial_heading")): ?>
+<section
+            class="client-see dsn-arrow  " >
+        <div class="container">
+            <div class="inner">
+                                    <div class="left">
+                        <h2 class="title" data-dsn-grid="move-section" data-dsn-move="-60"
+                            data-dsn-duration="100%" data-dsn-opacity="1" data-dsn-responsive="tablet">
+                            <span class="text"><?php the_field("testimonial_heading"); ?></span>
+                        </h2>
+                    </div>
+
+                
+                <div class="items">
+                    <div class="slick-slider">
+                    <?php 
+
+	query_posts(array( 
+
+			'post_type' => 'testimonials',
+			
+			'showposts' => -1,
+			'order' => 'ASC', 
+
+			) ); 
+
+			$j=0; 
+?>
+<?php while (have_posts()) : the_post(); ?>
+                                                        <div class="item">
+
+                                    <div class="quote"><?php the_content(); ?></div>                                    <div class="bottom f-align-center">
+                                    <?php $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()), 'thumbnail' 
+
+); ?>
+                                        <div class="avatar"><img width="100" height="100"   src="<?php echo $url ?>" alt="" class="attachment-thumbnail size-thumbnail "/>
+                                        </div>
+                                        <div class="label"><div class="cell">- <?php the_title(); ?>, <?php the_field("designation"); ?></div></div>                                    </div>
+                                </div>
+
+                                                            
+
+                             <?php $i++; endwhile;?>
+            <?php  wp_reset_query();?>                                
+
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php endif; ?>
+<!--section 5 end-->
+
+<!--section 6-->
+<?php if(get_field("blog_heading")): ?>
+<section
+            class="our-news dsn-arrow  " >
+        <div class="container">
+            <div class="one-title"><div class="title-sub-container"><p class="title-sub" data-dsn-animate=up><?php the_field("blog_heading"); ?></p></div><h2 class="title-main" data-dsn-animate=up><?php the_field("blog_subheading"); ?></h2></div>            <div class="custom-container">
+                <div class="slick-slider">
+                                              <?php 
+
+	query_posts(array( 
+
+			'post_type' => 'post',
+			'showposts' => 10,
+			'order' => 'ASC', 
+
+			) ); 
+
+			$a=0; 
+?>
+<?php while (have_posts()) : the_post(); ?>
+                                                <div class="item-new slick-slide">
+                                                <?php $url = wp_get_attachment_url( get_post_thumbnail_id(get_the_ID()), 'thumbnail' 
+
+); ?>
+                                <div class="image" data-overlay="0">
+                                    <img width="768" height="432" src="<?php echo $url ?>" class="attachment-medium_large size-medium_large wp-post-image" alt="" />                               </div>
+                                <div class="content">
+                                    <h5><?php the_date(); ?></h5>
+
+                                    <div class="cta">
+                                                                                <a class="effect-ajax" href="<?php the_permalink(); ?>"
+                                           data-dsn="parallax"
+                                           rel="bookmark" title="A lovely trip to London with my family"><?php the_title(); ?> </a>
+                                    </div>
+
+                                    <?php the_excerpt(); ?>
+
+                                </div>
+                            </div>
+                            
+                                                    
+                 <?php $a++; endwhile;?>
+            <?php  wp_reset_query();?>                                    
+                                                    
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+   <?php endif; ?> 
+<!--section 6 end-->
+
+
+<!--section 7-->
+<section
+        class="brand-client  " >
+    <div class="container">
+
+        <div class="one-title"><div class="title-sub-container"><p class="title-sub" data-dsn-animate=up>Our clients</p></div><h2 class="title-main" data-dsn-animate=up>Your successful, our reputation</h2></div>
+
+        <div class="wapper-client">
+
+
+                        <div class="logo-box">
+                            <img width="300" height="90"   alt=""  src="https://www.dsngrid.com/droow/wp-content/uploads/sites/10/2020/02/6.png" class="attachment-droow-brand-img size-droow-brand-img " />                                                                                        <div class="info">
+                                    <div class="content">
+                                        <div class="icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+
+                                        <div class="entry">
+                                            <div>
+                                                <h5>google</h5>                                                <a href="#" target="_blank" rel="nofollow">www.google.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        </div>
+
+                    
+        </div>
+    </div>
+</section>
+<!--section 7 end-->
+<!--section 8-->
+<section class="contact-up next-post-up section-margin section-padding">
+            <div class="container">
+                <div class="c-wapp">
+                    <a href="#" class="effect-ajax">
+                        <span class="hiring">
+                            We are hiring                        </span>
+                        <span class="career">
+                             Dare and contact us immediately!                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+<!--section 8 end-->
+
+
+</div><!-- close wrapper -->
+<?php
+get_footer();

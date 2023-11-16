@@ -1,0 +1,13 @@
+{
+    "name": "aniruddha/g-spreadsheet",
+    "authors": [
+        {
+            "name": "Aniruddha",
+            "email": "aniruddha.roy@maxmobility.biz"
+        }
+    ],
+    "require": {
+        "google/apiclient": "2.0",
+        "hybridauth/hybridauth" : "~3.0"
+    }
+}
